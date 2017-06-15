@@ -16,7 +16,7 @@ public class Course {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private int pnum;
+	private long pnum;
 	
 	private String title;
 	private String image;
@@ -35,7 +35,21 @@ public class Course {
 		super();
 	}
 
-	public int getPnum() {
+	public Course(long pnum, String title, String image, String url, String price, String type, String category,
+			String rating, String description) {
+		this.pnum = pnum;
+		this.title = title;
+		this.image = image;
+		this.url = url;
+		this.price = price;
+		this.type = type;
+		this.category = category;
+		this.rating = rating;
+		this.description = description;
+		
+	}
+
+	public long getPnum() {
 		return pnum;
 	}
 

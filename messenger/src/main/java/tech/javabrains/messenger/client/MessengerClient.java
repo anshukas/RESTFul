@@ -1,7 +1,7 @@
-package tech.javabrains.messenger.client;
-/**
+/*package tech.javabrains.messenger.client;
+*//**
  * This is the client which call the messenger web service.
- */
+ *//*
 
 import java.io.File;
 import java.io.IOException;
@@ -59,3 +59,4 @@ public class MessengerClient {
 		return null;
 	}
 }
+*/
